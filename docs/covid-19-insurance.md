@@ -139,7 +139,7 @@ Request Params
     </tr>
     <tr><td>ref_id(this we have sent you earlier as part of get quote response)</td> <td>String</td>
     </tr>
-    <tr> <td>sum_insured</td> <td>float</td>
+    <tr> <td>sum_insured</td> <td>String</td>
     </tr>
     <tr> <td>primary_add_on</td> <td>String</td>
     </tr>

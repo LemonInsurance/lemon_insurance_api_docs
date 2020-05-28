@@ -69,13 +69,12 @@ Request Params
     <tr> <td>previous_ncb</td> <td>String</td></tr>
     <tr> <td>previous_policy_claimed</td> <td>String</td></tr>
     <tr> <td>policy_term</td> <td>String</td></tr>
-    <tr><td>has_previous_policy</td><td>String</td></tr>
-    <tr><td>is_driving_license_valid</td><td>String</td></td></tr>
-    <tr> <td>idv_one</td> <td>String</td></tr>
+    <tr><td>has_previous_policy</td><td>String</td></tr>    
+<tr> <td>idv_one</td> <td>String</td></tr>
     <tr> <td>is_comprehensive</td> <td>String</td></tr>
     <tr> <td>expiry_date</td> <td>String</td></tr>
     <tr><td>previous_policy_type</td><td>String</td></tr>
-    <tr><td>tppd_restricted</td><td>tppd_restricted</td></tr>
+    <tr><td>tppd_restricted</td><td>String</td></tr>
         
 </table>
 
@@ -114,7 +113,7 @@ Response Params
     "previous_policy_claimed": "false",
     "policy_term": "1",
     "has_previous_policy": "true",
-    "is_driving_license_valid": "true",
+    
     "idv_one": "45266",
     "is_comprehensive": "true",
     "expiry_date": "30-05-2020",
@@ -184,8 +183,6 @@ Request Params
     </tr>
     <tr><td>provider</td> <td>String</td>
     </tr>
-    <tr> <td>registration_number</td> <td>String</td>
-    </tr>
     <tr> <td>engine_no</td> <td>String</td></tr>
     <tr> <td>chassis_no</td> <td>String</td></tr>
     <tr> <td>previous_policy_insurer_name</td> <td>String</td></tr>
@@ -236,31 +233,32 @@ Response Params
 ```
 {  
 	"provider": "dhfl",
-    "registration_number": "ap28by1765",
-    "engine_no": "adaskldasld",
-    "chassis_no": "adaskldasld",
+    "registration_numbers": "ap28by1764",
+    "engine_no": "kjkjkjkjk",
+    "chassis_no": "hkjkhjhkkj",
     "previous_policy_insurer_name": "",
     "previous_policy_number": "sdfsdfds",
     "puc_date": "",
     "puc_number": "",
     "puc_valid": "true",
-    "transaction_id": "6cfe574d12c24ef19567a019fa96aa62",
+    "transaction_id": "d049fa1b45b048baaed347330ea7f232",
     "first_name": "sdf",
-    "middle_names": "",
-    "is_driving_license_valid": "false",
+    "middle_name": "jkkj",
+    "is_driving_license_valid": "true",
     "last_name": "sdf",
     "address_line_1": "sdf",
     "address_line_2": "sdf",
     "title": "mr",
     "pincode": "500072",
     "mobile_no": "9441105900",
-    "email": "bhaskar@lemoninsurance.in",
+    "email": "bhaskar@cowhite.com",
     
-    "pa_with_valid_owner_dl_nominee_name": "test",
+    
+    "pa_with_valid_owner_dl_nominee_name": "balaji p",
     "pa_with_valid_owner_dl_nominee_relation": "son",
-    "pa_with_valid_owner_dl_nominee_age": "25",
-    "pa_with_valid_owner_dl_appointee_name": "aaa",
-    "pa_with_valid_owner_dl_appointee_relation_to_nominee": "son"
+    "pa_with_valid_owner_dl_nominee_age":"25",
+    "pa_with_valid_owner_dl_appointee_name": "bhaskar p",
+    "pa_with_valid_owner_dl_appointee_relation_to_nominee": "father"
     
 }
 ```
@@ -268,11 +266,12 @@ Response Params
 
 ```
 {
-  "policy_number": "121008175800",
-  "ref_id": "cbdc31c33b9f4cbba52d7981d9e42ab0",
-  "status": "Underwriting Review"
+  "pdf_url": "https://devapi.cocogeneralinsurance.com/dhflgip/api/nbroker/policy/-/20700069070-00-000000-0/02554178e3f9e79af7a04e812d0ed8bc189aad7f6785ebe21533984ed1c055d5",
+  "policy_number": "20700069070/00/000000/0",
+  "ref_id": "d049fa1b45b048baaed347330ea7f232",
+  "transactionNR": "d049fa1b45b048baaed347330ea7f232",
+  "transaction_id": "d049fa1b45b048baaed347330ea7f232"
 }
-
 ```
 
 
