@@ -233,7 +233,7 @@ Response Params
 ```
 {  
 	"provider": "dhfl",
-    "registration_numbers": "ap28by1764",
+    "registration_number": "ap28by5555",
     "engine_no": "kjkjkjkjk",
     "chassis_no": "hkjkhjhkkj",
     "previous_policy_insurer_name": "",
@@ -250,8 +250,8 @@ Response Params
     "address_line_2": "sdf",
     "title": "mr",
     "pincode": "500072",
-    "mobile_no": "9441105900",
-    "email": "bhaskar@cowhite.com",
+    "mobile_no": "9985402031",
+    "email": "bhaskar@lemoninsurance.in",
     
     
     "pa_with_valid_owner_dl_nominee_name": "balaji p",
@@ -266,10 +266,8 @@ Response Params
 
 ```
 {
-  "pdf_url": "https://devapi.cocogeneralinsurance.com/dhflgip/api/nbroker/policy/-/20700069070-00-000000-0/02554178e3f9e79af7a04e812d0ed8bc189aad7f6785ebe21533984ed1c055d5",
+  "pdf_url": "url here",
   "policy_number": "20700069070/00/000000/0",
-  "ref_id": "d049fa1b45b048baaed347330ea7f232",
-  "transactionNR": "d049fa1b45b048baaed347330ea7f232",
   "transaction_id": "d049fa1b45b048baaed347330ea7f232"
 }
 ```
